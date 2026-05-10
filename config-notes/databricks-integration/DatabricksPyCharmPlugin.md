@@ -4,6 +4,7 @@
 
 This document captures the importance of the Databricks integration with PyCharm and how it fits into the long-term evolution from traditional enterprise Spark development toward modern cloud-native lakehouse engineering.
 
+URL - https://youtu.be/b2q8zbZppHI
 ---
 
 # Why This Plugin Matters

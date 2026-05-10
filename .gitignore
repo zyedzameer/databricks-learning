@@ -1,0 +1,23 @@
+# Databricks
+.databrickscfg
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Mac/Linux junk
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
