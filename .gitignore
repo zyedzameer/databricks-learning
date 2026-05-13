@@ -21,3 +21,6 @@ __pycache__/
 # Virtual environments
 venv/
 .venv/
+
+# REF directory
+02-python-for-data-engineering/REF/
