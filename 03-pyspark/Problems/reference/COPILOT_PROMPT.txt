@@ -1,0 +1,25 @@
+COPILOT AGENT ONE-LINER PROMPT FOR NEW PYSPARK PROBLEMS
+====================================================================
+
+When adding a new problem to 03-pyspark/Problems/, use this prompt:
+
+---
+
+"Refer to reference/PROBLEM_PATTERN_GUIDE.md in 03-pyspark/Problems/, create a new problem module following the patterns: extract question/dataset from my description, create <problem>.csv in data/ folder, create 00N_<title>.py with only docstring (question+approach) and inline REPL-style logic using F and spark from spark_config, print results, no functions/spark.stop(), validate syntax."
+
+---
+
+SHORTER VERSION:
+
+"Follow reference/PROBLEM_PATTERN_GUIDE.md: extract question & dataset, create CSV in data/, create 00N_title.py with docstring + inline REPL logic using spark_config, no functions/spark.stop()."
+
+---
+
+HOW THIS WORKS:
+1. User provides problem description and dataset
+2. User gives this prompt to the agent
+3. Agent reads reference/PROBLEM_PATTERN_GUIDE.md automatically
+4. Agent extracts all required information
+5. Agent creates problem module following the exact pattern
+6. Agent validates and provides run instructions
+
